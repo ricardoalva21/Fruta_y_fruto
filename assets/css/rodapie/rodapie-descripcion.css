@@ -1,0 +1,21 @@
+.rodapie__descripcion{
+    display: flex;     
+    color: #fdfdfd;
+}
+
+@media screen and (min-width:0) {
+    .rodapie__descripcion{
+        font-size: 1.7rem;
+        align-items: center;
+        order: 2;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .rodapie__descripcion{
+        margin-left: 5rem;
+        font-size: 2rem;
+        order: 0;
+    }
+}
+

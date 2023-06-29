@@ -1,4 +1,7 @@
 .receta__imagen{
     height: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
     
 }
